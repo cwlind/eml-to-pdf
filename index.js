@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const fs = require("fs");
+const fs = require("fs-extra");
 const path = require("path");
 
 const Eml2Pdf = require("./eml-to-pdf");
