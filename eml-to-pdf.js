@@ -1,4 +1,4 @@
-var fs = require( 'fs' );
+var fs = require( 'fs-extra' );
 var pdf = require( 'html-pdf' );
 var Envelope = require( 'envelope' );
 var path = require('path');
